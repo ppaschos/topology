@@ -1,4 +1,3 @@
-Disable: false
 Production: true
 SupportCenter: Self Supported
 GroupID: 500
@@ -6,7 +5,6 @@ GroupDescription: This is a small cluster to test LSU_SuperMIC integration
 Resources:
   OSG_US_LSU_SuperMIC:
     ID : 989
-    Disable: false
     Description: The Hosted CE serving LSU_SuperMIC
     ContactLists:
       Administrative Contact:
@@ -23,6 +21,10 @@ Resources:
         Secondary:
           Name: Jeffrey Michael Dost
           ID: 3a8eb6436a8b78ca50f7e93bb2a4d1f0141212ba
+      Site Contact:
+        Primary:
+          Name: Eric B Wiggins
+          ID: cada8414a48f8401782c89876f53a1b6c21c368f
     FQDN: hosted-ce23.grid.uchicago.edu
     Services:
       CE:

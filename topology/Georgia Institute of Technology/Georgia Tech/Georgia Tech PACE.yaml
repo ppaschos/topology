@@ -1,4 +1,3 @@
-Disable: false
 GroupDescription: Resources in the Georgia Tech PACE cluster, to be used by LIGO.
 GroupID: 423
 Production: true
@@ -13,6 +12,12 @@ Resources:
         Secondary:
           ID: 60aadecab2baceb94cd6cfdbf600a64581ba6af2
           Name: Mehmet Belgin
+        Tertiary:
+          ID: 14769be06478f6ac7e1785c371d412f6396b3409
+          Name: Andre McNeill
+        Tertiary:
+          ID: 068fa784cd29b5aee10ccce2669a95cbaa66d88b
+          Name: Ruben Lara
       Miscellaneous Contact:
         Primary:
           ID: 547c65a6ed5e9e755c023418a47b8b92e88f0523
@@ -41,7 +46,6 @@ Resources:
           ID: bce6aa9f33442110ab7554a8bf716ab80ed7bef5
           Name: Paul Manno
     Description: This is a Condor CE in front of the PACE cluster, for use by LIGO.
-    Disable: false
     FQDN: osg-sched.pace.gatech.edu
     ID: 734
     Services:
@@ -63,6 +67,12 @@ Resources:
         Secondary:
           ID: 60aadecab2baceb94cd6cfdbf600a64581ba6af2
           Name: Mehmet Belgin
+        Tertiary:
+          ID: 14769be06478f6ac7e1785c371d412f6396b3409
+          Name: Andre McNeill
+        Tertiary:
+          ID: 068fa784cd29b5aee10ccce2669a95cbaa66d88b
+          Name: Ruben Lara
       Miscellaneous Contact:
         Primary:
           ID: bce6aa9f33442110ab7554a8bf716ab80ed7bef5
@@ -86,8 +96,8 @@ Resources:
           Name: Paul Manno
     Description: GridFTP server, initially for incoming LIGO frame data pushed from
       CIT.
-    Disable: false
     FQDN: osg-gftp.pace.gatech.edu
+    DN: /DC=org/DC=incommon/C=US/ST=GA/L=Atlanta/O=Georgia Institute of Technology/OU=Office of Information Technology/CN=osg-gftp.pace.gatech.edu
     ID: 737
     Services:
       GridFtp:
@@ -154,7 +164,6 @@ Resources:
           ID: 068fa784cd29b5aee10ccce2669a95cbaa66d88b
           Name: Ruben Lara
     Description: Georgia Tech submit node for LIGO.
-    Disable: false
     FQDN: ligo-6.pace.gatech.edu
     ID: 736
     Services:
