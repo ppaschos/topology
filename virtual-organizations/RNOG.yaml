@@ -1,7 +1,6 @@
 AppDescription: Distribute and run simulation software for the Radio Neutrino Observatory Greenland
 CertificateOnly: false
-Community: The RNO-G experiment is a scientific project designed 
-to detect ultra-high energy neutrinos by using an array of radio antennas embedded in the Greenland ice sheet.
+Community: The RNO-G experiment will detect ultra-high energy neutrinos by using an array of radio antennas embedded in the Greenland ice sheet.
 Contacts:
   Administrative Contact:
   - ID: 432e5378c1c59ecf4588ae26226a94dd3bdccd33
